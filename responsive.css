@@ -8,8 +8,7 @@
         background-position: center;
         background-attachment: fixed;
     }
-    .button{
-        
+    .button{        
         margin-right: 20px;
     }
     .content{
@@ -91,6 +90,153 @@
         justify-content: center;
         align-items: center;
         margin: 24px 0 0 0;
+        height: 240px;
+    }
+    #img-footer{
+        width: 100%;
+        margin: 0;
+        height: 30px;
+    }
+    .formulario-pai{
+        display: flex;
+        justify-content: left;  
+        flex-direction: column;
+        gap: 2px;    
+        align-items: center;
+    }
+   
+    #submit{
+        font-size: 16px;
+        height: 24px;
+        width: 180px;
+        border-radius: 10px;
+        border: none;
+        padding: 4px;
+        transition: background-color 0.2s ease-in, transform 0.2s ease-in;
+    }
+    #submit:hover{
+        background-color: #312373;
+        color: white;
+        border: rgba(255, 255, 255, 0.985) solid 1px;  
+    }
+    .direitos{
+        font-size: 14px;
+    }
+
+     /* estilos */
+
+    h1{
+        font-size: 56px;
+     }
+    h2{
+        font-size: 32px;
+     }
+    h3{
+        font-size: 28px;
+     }
+    h4{
+        font-size: 18px;
+     }
+    p{
+        font-size: 16px;
+     }
+
+}
+
+@media(max-width:800px){
+    .first-section {
+        
+        height: auto;            
+        background-image: url("backgroundmobile.png");
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    .button{
+        
+        margin-right: 20px;
+    }
+    .content{
+        margin: 16px 0 16px 16px;
+        padding: 16px;
+        width:90%;
+    }
+    .content h1{
+        margin-bottom: 8px;
+    }
+    .content h3{
+       margin-bottom: 0;
+    }
+    .content p{
+        width: 80%;
+    }
+
+    .benefits{
+        display: flex;
+        justify-content:center;
+        flex-direction: column;
+        margin: 16px 16px 16px 16px;
+    }
+    .benefits-item{
+        padding: 12px;
+        border-radius: 24px 24px 24px 24px;
+        font-size: 18px;
+        width: 90%;
+        margin: 18px 0 0 16px;
+    }
+     /* segunda seção */
+    .content-second-section{            
+        display: flex;
+        flex-direction: column;
+        justify-content: center;  
+        margin: 0 16px 0 16px;                
+    }
+    .second-section{
+        display: flex;
+        margin: 16px 24px 0 16px;
+        padding: 16px;
+        width: 90%;
+    }
+    .second-section h3{
+       margin: 0 16px 0 16px;
+        font-size: 32px;
+    }
+    
+    .mrna-keytruda{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .rna{
+        display: flex;
+        flex-direction: column;   
+        width: 90%; 
+        padding: 16px;
+        margin: 0 16px 0 16px;
+    }
+    .keytruda{
+        display: flex;
+        flex-direction: column;
+        margin: 0 16px 0 16px;
+        padding: 16px;
+        width: 90%;
+    }
+    .rna img, .keytruda img{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        border-radius: 4px 4px 4px 4px;
+    }
+
+    /*footer*/
+    .cadastro-e-formulario{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 24px 0 0 0;
+        height: 240px;
     }
     #img-footer{
         width: 100%;
