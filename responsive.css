@@ -2,7 +2,7 @@
     .first-section {
         
         height: auto;            
-        background-image: url("backgroundmobile.png");
+        background-image: url("img/backgroundmobile.png");
         background-size:cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -147,7 +147,7 @@
     .first-section {
         
         height: auto;            
-        background-image: url("backgroundmobile.png");
+        background-image: url("img/backgroundmobile.png");
         background-size:cover;
         background-repeat: no-repeat;
         background-position: center;
