@@ -6,66 +6,78 @@
     color: white;
   }
   .formulario-pai{
-      display: flex;
-      justify-content: center;  
-      gap: 24px;    
-      align-items: center;
+    display: flex;
+    justify-content: center;  
+    gap: 24px;    
+    align-items: center;
 
   }
   #submit{
-      height: 72px;
-      width: 72px;
-      border-radius: 8px;
-      border: none;
-      transition: background-color 0.2s ease-in, transform 0.2s ease-in;
+    height: 72px;
+    width: 72px;
+    border-radius: 8px;
+    border: none;
+    transition: background-color 0.2s ease-in, transform 0.2s ease-in;
   }
   #submit:hover{
-      background-color: #312373;
-      color: white;
-      border: rgba(255, 255, 255, 0.985) solid 1px;
+    background-color: #312373;
+    color: white;
+    border: rgba(255, 255, 255, 0.985) solid 1px;
       
   }
   #cadastro h4{
-      text-align: center;
-      font-family: 'space grotesk', sans-serif;
-      font-size: 20px;
-      color: white;
+    text-align: center;
+    font-family: 'space grotesk', sans-serif;
+    font-size: 20px;
+    color: white;
   }
   label {
-      margin-bottom: 2px;
-      display: inline-block; 
+    margin-bottom: 2px;
+    display: inline-block; 
   }
   input, select {
-      margin-bottom: 8px;
+    margin-bottom: 8px;
       
   }
-  form{
-    font-family: 'nunito', sans-serif;
-    font-size: 16px;
-    padding: 8px;
-}
+form input[type="text"],
+form input[type="email"],
+form select {
+    box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	outline: none;
+	display: block;
+	width: 100%;
+	padding: 7px;
+	border: none;
+	border-bottom: 1px solid #ddd;
+	background: transparent;
+	margin-bottom: 3px;
+	font: 16px 'Nunito';
+	height: 15px;
+    color: white;
+    border-radius: 0;
+ }
   .direitos{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      color:  #312373;            
-      height: 40px;
-      width:100%;
-      font-family: 'space grotesk', sans-serif;
-      font-weight: 700;
-      font-size: 20px;
-      background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:  #312373;            
+    height: 40px;
+    width:100%;
+    font-family: 'space grotesk', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    background-color: white;
         
   }
-
   input, select {
-     padding: 2px;
-      border: 1px solid #ccc;
-      border-radius: 4px;
-      font-size: 16px;
+    padding: 2px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
   }
   input:focus, select:focus {
-      outline: none;
-      border-color: #312373; 
-      
+    outline: none;
+    border-color: #312373; 
   }

@@ -98,25 +98,26 @@
         height: 20px;
     }
     .formulario-pai{
-          display: flex;
-          justify-content: center;  
-          flex-direction: column;
-          gap: 24px;    
-          align-items: center;
+        display: flex;
+        justify-content: left;  
+        flex-direction: column;
+        gap: 2px;    
+        align-items: center;
     }
+   
     #submit{
-         font-size: 16px;
-          height: 24px;
-          width: 180px;
-          border-radius: 10px;
-          border: none;
-          padding: 4px;
-          transition: background-color 0.2s ease-in, transform 0.2s ease-in;
+        font-size: 16px;
+        height: 24px;
+        width: 180px;
+        border-radius: 10px;
+        border: none;
+        padding: 4px;
+        transition: background-color 0.2s ease-in, transform 0.2s ease-in;
     }
     #submit:hover{
-          background-color: #312373;
-          color: white;
-          border: rgba(255, 255, 255, 0.985) solid 1px;  
+        background-color: #312373;
+        color: white;
+        border: rgba(255, 255, 255, 0.985) solid 1px;  
     }
 
      /* estilos */
