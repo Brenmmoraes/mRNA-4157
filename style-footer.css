@@ -1,6 +1,6 @@
 .cadastro-e-formulario{
     
-    height: 224px;
+    height: 180px;
     padding: 24px;
     background-color: #312373;
     color: white;
@@ -81,3 +81,8 @@ form select {
     outline: none;
     border-color: #312373; 
   }
+  #img-footer{
+    width: 100%;
+    margin: 0;
+    height: 80px;
+}
