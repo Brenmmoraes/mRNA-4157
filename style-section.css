@@ -29,6 +29,21 @@ header{
     display: flex;
     justify-content: end;
     margin-right: 56px;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    animation-duration: 1s;
+    animation-name: grow;
+}
+@keyframes grow{
+    0%{
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+.button:hover{
+    background-color: #38229A;
+    color: #ffffff;
 }
 a:visited{
     color: #38229A;
@@ -59,6 +74,7 @@ p{
     font-family: 'nunito', sans-serif;
     font-size: 20px;
     color: #38229A;
+    
 }
 
 .content{

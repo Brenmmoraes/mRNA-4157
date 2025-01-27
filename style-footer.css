@@ -10,14 +10,19 @@
     justify-content: center;  
     gap: 24px;    
     align-items: center;
-
+    font-family: 'Nunito';
   }
-  #submit{
+  .form-group {
+        display: flex; 
+        gap: 12px;
+        align-items: center; 
+  }
+   #submit{
     height: 72px;
     width: 72px;
     border-radius: 8px;
     border: none;
-    transition: background-color 0.2s ease-in, transform 0.2s ease-in;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
   }
   #submit:hover{
     background-color: #312373;
