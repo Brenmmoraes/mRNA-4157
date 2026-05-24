@@ -1,18 +1,36 @@
+* {
+  box-sizing: border-box;
+}
 body{
     margin: 0;
     line-height: 1.5;    
 }
-
+.background{        
+    background-image: url("img/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}	
+.container{
+    display: flex;
+    justify-content: flex-start;    
+    flex-direction: column;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
 h1{
     color: #38229A;
     font-family: 'space grotesk', sans-serif;
-    font-size: 80px;
-    margin-bottom: -40px;
+    font-size: 80px;   
+    margin: 32px 0 0 0;
 }
 h2{
     color: #38229A;
     font-family: 'space grotesk', sans-serif;
     font-size: 60px;
+    margin:0 0 32px 0;
 }
 h3{
     color: #38229A;
@@ -25,16 +43,11 @@ h4{
     font-size: 20px;
     margin: 0;
 }
+h5{        
+    font-family: 'space grotesk', sans-serif;
+}
 p{
     font-family: 'nunito', sans-serif;
     font-size: 16px;
-    color: #38229A;
-    
-}
-
-img{
-    width: 500px;
-    margin: 24px 0 0 0;
-    padding: 0;
-    border-radius: 4px 4px 4px 4px;
+    color: #38229A;    
 }

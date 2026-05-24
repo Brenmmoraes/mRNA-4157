@@ -1,28 +1,19 @@
 header{
     display: flex;
     justify-content: flex-end;
-    height:auto;
 }
-/* ======================
-botão +info  
-====================== */
-
 .button{
     background-color: #ffffff;
     color: #38229A;
-    border: none;
-    padding: 12px 24px;
+    padding: 8px 24px;
     border-radius: 8px;
-    margin: 24px;
+    margin: 24px 56px 24px 24px;
     font-family: 'space grotesk', sans-serif;
     font-size: 18px;
     text-decoration: none;
-    display: flex;
-    justify-content: end;
-    margin-right: 56px;
-    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
-    animation-duration: 1s;
-    animation-name: grow;
+    
+    transition: background-color 0.3s, color 0.3s;
+    animation: 1s grow;
 }
 @keyframes grow{
     0%{
@@ -36,8 +27,7 @@ botão +info
     background-color: #38229A;
     color: #ffffff;
 }
-a:visited{
-    color: #38229A;
-    text-decoration: none;
+.button:focus-visible{
+    outline: 3px solid #8f7ce4;
+    outline-offset: 2px;
 }
-
