@@ -1,9 +1,5 @@
-body{
-    margin: 0;
-    line-height: 1.5;
-    
-}
-.first-section{
+
+.background{
     height: auto;            
     background-image: url("img/background.jpg");
     background-size: cover;
@@ -11,83 +7,21 @@ body{
     background-position: center;
     background-attachment: fixed;
 }	
-header{
-    display: flex;
-    justify-content: flex-end;
-    height:auto;
-}
-.button{
-    background-color: #ffffff;
-    color: #38229A;
-    border: none;
-    padding: 12px 24px;
-    border-radius: 8px;
-    margin: 24px;
-    font-family: 'space grotesk', sans-serif;
-    font-size: 18px;
-    text-decoration: none;
-    display: flex;
-    justify-content: end;
-    margin-right: 56px;
-    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
-    animation-duration: 1s;
-    animation-name: grow;
-}
-@keyframes grow{
-    0%{
-        transform: scale(0);
-    }
-    100%{
-        transform: scale(1);
-    }
-}
-.button:hover{
-    background-color: #38229A;
-    color: #ffffff;
-}
-a:visited{
-    color: #38229A;
-    text-decoration: none;
-}
-h1{
-    color: #38229A;
-    font-family: 'space grotesk', sans-serif;
-    font-size: 88px;
-    margin-bottom: -40px;
-}
-h2{
-    color: #38229A;
-    font-family: 'space grotesk', sans-serif;
-    font-size: 64px;
-}
-h3{
-    color: #38229A;
-    font-family: 'space grotesk', sans-serif;
-    font-size: 40px;
-}
-h4{
-    color: #38229A;
-    font-family: 'space grotesk', sans-serif;
-    font-size: 24px;
-}
-p{
-    font-family: 'nunito', sans-serif;
-    font-size: 20px;
-    color: #38229A;
-    
-}
 
-.content{
+
+.intro{
     margin: 0 0 50px 120px;
     padding: 24px;
     width: 764px;
 }
+
 .benefits{
     display: flex;
     justify-content:left;
     flex-direction: row;
     margin: -80px 0 50px 120px;
 }
+
 .benefits-item{
     background-color: #312373;
     color: #ffffff;
@@ -111,66 +45,36 @@ p{
     font-size: 20px;
     color: #ffffff;
     padding: 8px 8px 0 24px;
+    
 }
-.second-section{
+.conclusion-title{
     display: flex;
-    justify-content: center;
+    margin: 70px 0 70px 145px;
        
 }
-.content-section2{            
+
+
+.conclusion{
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    margin: 0 0 0 120px;
-   
-}
-.keytruda img{
-    width: 500px;
-    margin: 24px 0 0 0;
-    padding: 0;
-    border-radius: 4px 4px 4px 4px;
-}
-.rna img{
-    width: 500px;
-    margin: 24px 0 0 0;
-    padding: 0;
-    border-radius: 4px 4px 4px 4px;
-}
-.mrna-keytruda{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-bottom: 40px;
+    justify-content: Space-between;
+    margin: -80px 100px 50px 120px;
+
+    
 }
 
 .rna{
     display: flex;
     flex-direction: column;    
     padding: 24px;
-    width: 500px;
+    max-width: 500px;
+   
 }
 .keytruda{
     display: flex;
     flex-direction: column;
-    margin: 60px 0 0 40px;
     padding: 24px;
-    width: 500px;
+    max-width: 500px;
+    
 }
-.rna h4 {
-    color: #38229A;
-    font-family: 'space grotesk', sans-serif;
-    font-size: 24px;
-    margin: 16px 0 0 0;
-}
-.keytruda h4{
-    color: #38229A;
-    font-family: 'space grotesk', sans-serif;
-    font-size: 24px;
-    margin: 16px 0 0 0;
-}
-.rna p, .keytruda p{
-    font-family: 'nunito', sans-serif;
-    font-size: 20px;
-    color: #38229A;
-    margin: 16px 0 0 0;
-}
+

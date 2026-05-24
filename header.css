@@ -1,0 +1,43 @@
+header{
+    display: flex;
+    justify-content: flex-end;
+    height:auto;
+}
+/* ======================
+botão +info  
+====================== */
+
+.button{
+    background-color: #ffffff;
+    color: #38229A;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    margin: 24px;
+    font-family: 'space grotesk', sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    display: flex;
+    justify-content: end;
+    margin-right: 56px;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    animation-duration: 1s;
+    animation-name: grow;
+}
+@keyframes grow{
+    0%{
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+.button:hover{
+    background-color: #38229A;
+    color: #ffffff;
+}
+a:visited{
+    color: #38229A;
+    text-decoration: none;
+}
+

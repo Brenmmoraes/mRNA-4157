@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    line-height: 1.5;    
+}
+
+h1{
+    color: #38229A;
+    font-family: 'space grotesk', sans-serif;
+    font-size: 80px;
+    margin-bottom: -40px;
+}
+h2{
+    color: #38229A;
+    font-family: 'space grotesk', sans-serif;
+    font-size: 60px;
+}
+h3{
+    color: #38229A;
+    font-family: 'space grotesk', sans-serif;
+    font-size: 34px;
+}
+h4{
+    color: #38229A;
+    font-family: 'space grotesk', sans-serif;
+    font-size: 20px;
+    margin: 0;
+}
+p{
+    font-family: 'nunito', sans-serif;
+    font-size: 16px;
+    color: #38229A;
+    
+}
+
+img{
+    width: 500px;
+    margin: 24px 0 0 0;
+    padding: 0;
+    border-radius: 4px 4px 4px 4px;
+}
