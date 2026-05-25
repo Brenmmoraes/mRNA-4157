@@ -1,0 +1,43 @@
+.modal {
+  border: none;
+  border-radius: 24px;
+  padding: 0;
+  max-width: 420px;
+  width: calc(100% - 32px);
+}
+
+.modal::backdrop {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 32px;
+  font-family: 'Nunito', sans-serif;
+}
+
+.modal-close {
+  align-self: flex-end;
+  border: none;
+  background: transparent;
+  font-size: 32px;
+  cursor: pointer;
+}
+
+.modal-content input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #c7b8ff;
+  border-radius: 8px;
+}
+
+.modal-submit {
+  background: #38229A;
+  color: #ffffff;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+}

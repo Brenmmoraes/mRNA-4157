@@ -1,6 +1,9 @@
 .intro{  
    max-width: 764px;
 }
+.intro-text{
+   margin-bottom: 48px;
+}
 
 .benefits{
     display: flex;
@@ -8,6 +11,7 @@
     flex-direction: row;   
     gap: 16px; 
     margin-bottom:0;
+    margin-top: 24px;
 }
 
 .benefits-item{
@@ -32,6 +36,10 @@
     color: #ffffff;
     padding: 8px 8px 0 24px;    
 }
+.conclusion-title{
+    margin: 48px 0;
+}
+
 .conclusion{
     display: flex;
     flex-direction: row;

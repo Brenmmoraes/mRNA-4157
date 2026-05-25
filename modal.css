@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.modal-head{
+    
+    padding: 0 16px;    
+}
+.modal-close{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    cursor: pointer;
+    font-size: 32px;
+    color: #38229A;
+    background: transparent;
+    border: none;
+    padding: 0 8px;
+    margin:0;
+}
+.modal-close:hover{
+    color: #8f7ce4;
+}
+.modal{
+    display: none;
+}
+.modal.active{
+    display: block;
+    width: 510px;
+    max-width: 80%;
+    
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+   
+    border-radius: 8px;
+    background-color: #ffffff;   
+    padding: 0 16px 32px 32px;    
+}
+.modal-body{
+    display: flex;
+    
+    flex-direction: column;
+
+    margin-top: 32px;
+    padding: 0 16px;
+}
+label, input{
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    color: #38229A;    
+    margin-bottom: 16px;    
+}
+input{
+    padding: 8px;
+    border: 1px solid #c6c3d3;
+    border-radius: 8px;
+    width: 100%;
+}
+input:focus{
+    outline: none;
+    border: 1px solid #38229A;
+}
+#enviar{
+    background-color: #e1dcfa;
+    color: #38229A;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;        
+}
+.overlay.active{    
+    position: fixed;
+    top: 0;
+    bottom: 0;     
+    left: 0;
+    right: 0;  
+    background: rgba(50, 35, 121, 0.17);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);   
+}
