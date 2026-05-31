@@ -22,6 +22,10 @@
 .modal-close:hover{
     color: #8f7ce4;
 }
+.modal-close:focus-visible{
+    outline: 3px solid #8f7ce4;
+    outline-offset: 2px;
+}
 .modal{
     display: none;
 }

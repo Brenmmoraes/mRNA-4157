@@ -1,8 +1,8 @@
 
-var button = document.querySelector('#info');
-var modal = document.querySelector('#modal');
-var close = document.querySelector('#close');
-var overlay = document.querySelector('.overlay');
+const button = document.querySelector('#info');
+const modal = document.querySelector('#modal');
+const close = document.querySelector('#close');
+const overlay = document.querySelector('.overlay');
 
 
 
